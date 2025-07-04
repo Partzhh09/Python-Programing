@@ -21,7 +21,6 @@
 
 # print pattern without nasted loop
 
-# for i in range(1,6):
-#     print("* " * (6 - i),end="")
-#     print("* " if i < 7 else "")
-
+for i in range(1,6):
+    print("* " * (5 - i),end="")
+    print("* " if i < 6 else "")
