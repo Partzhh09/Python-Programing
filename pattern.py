@@ -38,4 +38,15 @@
 # for i in range(17 + 1):
 #     print(i)
 
-# hollow ful piramid pattern
+# hollow ful piramid pattern proper triangle
+# with for loop
+
+for i in range(1, 6):
+    for j in range(1, 6 - i):
+        print(" ", end="")
+    for k in range(1, i + 1):
+        if k == 1 or k == i or i == 5:
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
