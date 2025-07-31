@@ -8,5 +8,28 @@
 
 # print("Hello World!")
 
-num = 25//20
-print(num)
+# num = 25//20
+# print(num)
+
+# a = 5
+# b = 6
+# temp = 0
+
+# temp = a
+# a = b
+# b = temp
+
+# print("a =", a)
+# print("b =", b)
+
+#swap the value without third variable
+
+a = 5
+b = 6
+
+a = a + b
+b = a - b
+a = a - b
+
+print("a =", a)
+print("b =", b)
